@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../GE/CSS/all.css">
+    <link rel="stylesheet" href="../GE/CSS/font.css">
+    <link rel="stylesheet" href="../GE/PLUGINS/bootstrap/css/bootstrap.min.css">
+    <title>Event Manager</title>
+</head>
+<body>
+    
+        <div>
+            <h1 id="title_salas">Cadastro de Salas</h1>
+        </div>
+
+        <div class="salas_form">
+            <label for="nome" class="form-label" id="title_form">Informe o nome da sala</label>
+            <input type="text" class="form-control" id="sala_form" placeholder="EX: SALA CENTRAL" required>
+            <br>
+            <label for="nome" class="form-label" id="title_form">Informe a lotação máxima da sala</label>
+            <input type="number" class="form-control" id="lotacao" placeholder="EX: 4" required>
+
+            <div class="button_salas">
+                <button id="btn7"class="btn btn-primary" type="button">Salvar</button>
+            </div>
+            
+            <a id="btn9" href="../GE/index.html">Voltar</a>
+
+            <div id="erro_sala"></div>
+
+            <h2 id="title_sala">Salas Cadastradas</h2>
+            <h2 id="title_lotacao">Lotação</h2>
+
+            <div id="salas"></div>
+
+        </div>
+
+    <script src="../GE/PLUGINS/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../GE/JS/salas.js"></script>
+</body>
+</html>

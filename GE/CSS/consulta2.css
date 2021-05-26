@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'QuicksandL';
+    
+}
+
+#title_consulta2 {
+    font-family: 'Quicksand';
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.button_panel {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33%;
+    padding: 20px;
+
+}
+
+.button_panel a {
+    max-width: 500px;
+    background: #5a5a5a;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button_panel a:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+    
+
+
+#btn21 {
+    margin-top: 3%;
+    
+}
+
+#btn22 {
+    margin-top: 3%;
+    
+}
+
+#btn23 {
+    margin-top: 3%;
+    
+}
+
+#btn24 {
+    margin-top: 3%;
+    width: 100px;
+}

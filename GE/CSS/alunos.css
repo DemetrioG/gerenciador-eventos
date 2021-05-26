@@ -1,0 +1,95 @@
+#title_alunos {
+    font-family: 'Quicksand';
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.alunos_form {
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 30%;
+}
+
+#title_form {
+    font-family: 'Quicksand';
+}
+
+
+#btn4 {
+    margin-left: 79%;
+    margin-top: 2%;
+    background: #5a5a5a;
+    border: none;
+    width: 100px;
+    height: 39px;
+
+}
+
+#btn6 {
+    margin-top: -8%;
+}
+
+#btn4:hover {
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+#btn6:hover {
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+}
+
+
+.alunos_form a {
+    max-width: 100px;
+    background: #5a5a5a;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    
+      
+}
+
+.alunos_form a:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#erro {
+    margin-top: 2%;
+}
+
+#nomesCadastrados {
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+
+#title_par {
+    margin-left: 34.9%;
+    color: #FF6C6C;
+    font-family: 'Quicksand';
+}
+
+#nome {
+    margin-left: 34.9%;
+}

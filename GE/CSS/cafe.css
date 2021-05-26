@@ -1,0 +1,79 @@
+#title_cafe {
+    font-family: 'Quicksand';
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.cafe_form {
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 30%;
+}
+
+#title_form {
+    font-family: 'Quicksand';
+}
+
+#btn11 {
+    margin-left: 79%;
+    margin-top: 2%;
+    border: none;
+    width: 100px;
+    height: 39px;
+    background: #5a5a5a;
+
+}
+
+
+
+
+#btn11:hover {
+    background: linear-gradient(135deg, #145481, #9bff6c);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.cafe_form a {
+    max-width: 100px;
+    background: #5a5a5a;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: -8%;
+    
+    
+}
+
+.cafe_form a:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#erro_cafe {
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+#title_caf {
+    color: #FF6C6C;
+    font-family: 'Quicksand';
+}

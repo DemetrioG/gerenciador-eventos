@@ -1,0 +1,74 @@
+#title_sala1 {
+    font-family: 'Quicksand';
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.sala1_form {
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 30%;
+}
+
+
+#btn29 {
+    margin-left: 79%;
+    margin-top: 2%;
+    border: none;
+    width: 100px;
+    height: 39px;
+    background: #5a5a5a;
+
+}
+
+#btn30 {
+    margin-top: -8%;
+
+}
+
+#btn30:hover {
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+}
+
+#btn29:hover {
+    background: linear-gradient(135deg, #145481, #9bff6c);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.sala1_form a {
+    max-width: 100px;
+    background: #5a5a5a;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+    
+    
+}
+
+.sala1_form a:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    background: linear-gradient(135deg, #145481, #FF6C6C);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    /*alinha texto do botao no meio*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+

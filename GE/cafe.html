@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../GE/CSS/all.css">
+    <link rel="stylesheet" href="../GE/CSS/font.css">
+    <link rel="stylesheet" href="../GE/PLUGINS/bootstrap/css/bootstrap.min.css">
+    <title>Event Manager</title>
+</head>
+<body>
+    
+        <div>
+            <h1 id="title_cafe">Cadastro de Espaços de Café</h1>
+        </div>
+
+        <div class="cafe_form">
+            <label for="nome" class="form-label" id="title_form">Informe o primeiro espaço de café</label>
+            <input type="text" class="form-control" id="cafe1" placeholder="EX: CAFE CENTRAL" required>
+            <br>
+            <label for="nome" class="form-label" id="title_form">Informe o segundo espaço de café</label>
+            <input type="text" class="form-control" id="cafe2" placeholder="EX: CAFE FRONTAL" required>
+
+            <div class="button_cafe">
+                <button id="btn11"class="btn btn-primary" type="button">Finaliza</button>
+            </div>
+
+            <a id="btn10" href="../GE/index.html">Voltar</a>
+
+            <div id="erro_cafe"></div>
+
+            <h2 id="title_caf">Espaços de Café Cadastrados</h2>
+
+            <div id="cafe"></div>
+            
+            
+        </div>
+
+    <script src="../GE/PLUGINS/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../GE/JS/cafe.js"></script>
+</body>
+</html>
