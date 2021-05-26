@@ -1,6 +1,6 @@
 # Instruções de Uso do Programa
 //Abrir Programa
-> Entre no link https://github.com/DemetrioG/gerenciador-eventos/tree/master /
+> Entre no link https://github.com/DemetrioG/Gerenciador-Eventos /
 > Clique no botão "Code" (verde) e "Download ZIP" /
 > Após baixar o arquivo, descompacte-o no seu computador /
 > Abra a pasta "GE" /
